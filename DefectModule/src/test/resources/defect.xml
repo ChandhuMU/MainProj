@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name='Mainspring'>
+	<test name='Defect_Module'>
+		<classes>
+			<class name='baseClass.BaseUI' />
+			<class name='testSuite.SmokeTest' />
+			<class name='testSuite.RegressionTest' />
+		</classes>
+	</test>
+</suite>

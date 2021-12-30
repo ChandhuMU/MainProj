@@ -1,0 +1,119 @@
+Project Name: Defects Module Automation in Mainspring Webpage
+
+
+CONTENTS OF THE FILE
+---------------------
+1. Team Members
+2. Introduction
+3. Pre-requisites
+4. Technologies Used
+5. Procedure for accessing Defect module
+
+
+Team Members:
+--------------
+1.Sanjeev(896455)
+2.Arthi K(2063220)
+3.Chandhu M U(2063252)
+4.Bharanidharn K(2063488)
+5.Arthi A(2063544)
+
+
+Introduction:
+--------------
+- This Project is About the Defect module, which is present on the https://pratesting.cognizant.com website, MainSpring WebPage.
+- This module allows us to create the Defects, add the details of defect, navigate to Workflow tab, Attachment tab, Comments tab, Activity Log tab, Previous Versions tab and automate all of them.
+- This module allows us to create defects by filling fields in the UI.
+
+
+Pre-requisites:
+----------------
+- The MainSpring which contains the Defect item module should be opened by the Authenticated user.
+- URL for Mainspring : https://pratesting.cognizant.com
+
+
+Technologies used:
+-------------------
+* The testScript is written in Java,with clean Syntax and comments with hard code free.
+* Extent Report and logging is implemented with Screenshots .
+* Data Driven testing is followed where the testdata is fetched from the excel file ,defect.xlsx.
+* POM model is implemented where All the common methods are placed inside the config.properties and Page/Tab specific methods are stored in respective Util classes.
+* Folder structure is maintained for better readability and maintenence.
+
+Some of the implemented tools are Selenium,TestNG,Extent reporting using relavantcodes api, APache POI ,maven ,junit etc.
+
+
+Procedure for accessing Defect Module:
+---------------------------------------
+1. Open the link https://pratesting.cognizant.com
+2. Enter your Cognizant Email-id and Password
+3. Go the Hamburger Icon (Menu Icon) present on the lefthand side of MainSpring Webpage, the left Navigation Pane appears.
+4. Click on the BFS NA SALES, Project details page will appear.
+5. Click on to the Execute tab, Select defects from the List, the defects item page will appear displaying all the list of Defect items.
+
+
+• For Adding the Defects:
+-------------------------
+1. Click on the Add Symbol (plus symbol) present on the left corner of page.
+2. Fill all of the Mandatory fields and then click on save Button, Defect will be created.
+
+
+• For Assigning the Name in Workflow tab:
+-----------------------------------------
+1. Click on Workflow tab present on the right side of Details tab, workflow screen will appear.
+2. Assign your name for Initiator, Performer, Approver from the given list and click on save.
+3. Route button will be enabled, Click on route button.(Now the Defect will move from initiator stage to performer stage)
+
+
+• Adding the Comments:
+-----------------------
+1. Click on the Comments tab present on the Righthand side of the linked Cards tab, Comment screen will appear.
+2. Add the comments in the given Textbox.
+3. Click on the Add comment button, Comment will be added.
+
+
+• Adding and Deleting Attachments:
+-----------------------------------
+a. Adding the Attachment
+-------------------------
+1. Click on the Attachments tab present on the Righthand side of the Comments tab, Attachments screen will appear.
+2. Click on the add button for adding the attachment.
+3. Select the image which you want to attach and click on open, image will be uploaded.
+
+b. Deleting the Attachment
+--------------------------
+1. Select the attachment which you want to delete.
+2. Click on delete, Attachment will be deleted.
+
+
+• Working on Previous Versions:
+--------------------------------
+1. Click on the Previous Versions tab present on the right-hand side of the Attachments tab, Previous versions screen will appear.
+2. Check Whether the description of your name is present or not.
+3. Select two version and click on Version difference symbol present on left corner, new browser will open.
+4. Click on return button
+
+• Working on Activity Log:
+---------------------------
+1. Click on the Activity Log tab present on the right hand side of the Previous Version tab, Activity Log screen will appear.
+2. Check whether the Description of your name is present or not.
+3. Click on the Current Version present under the version Difference table
+4. New Browser will open Showing the current Version description.
+5. Click on return button.
+
+
+• To Run the Project:
+----------------------
+1. Set your Cognizant Email and Password in the cofig. properties file in Config Package under src/main/java.
+2. After that to run it using TestNG, execute the defect.xml in src/test/resources.
+
+
+To access the Report generated, reach the Report Folder: \DefectModule\Extent-Report\
+
+• Recommendations:
+----------------------
+1. To run the Automation Script Use Chrome browser. 
+
+• Difficulties
+-------------------
+1. Due to lack of Time ,unable to implement the complete concept of Data Driven Framework.

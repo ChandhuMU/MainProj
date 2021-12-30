@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-28T18:12:17 IST" name="Mainspring" finished-at="2021-12-28T18:15:26 IST" duration-ms="189115">
+    <groups>
+    </groups>
+    <test started-at="2021-12-28T18:12:17 IST" name="Defect_Module" finished-at="2021-12-28T18:15:26 IST" duration-ms="189115">
+      <class name="baseClass.BaseUI">
+        <test-method is-config="true" signature="reportinitialize()[pri:0, instance:baseClass.BaseUI@48f278eb]" started-at="2021-12-28T18:12:17 IST" name="reportinitialize" finished-at="2021-12-28T18:12:17 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportinitialize -->
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:baseClass.BaseUI@48f278eb]" started-at="2021-12-28T18:12:17 IST" name="invokeBrowser" finished-at="2021-12-28T18:12:23 IST" duration-ms="5898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:baseClass.BaseUI@48f278eb]" started-at="2021-12-28T18:15:25 IST" name="closeBrowser" finished-at="2021-12-28T18:15:26 IST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:baseClass.BaseUI@48f278eb]" started-at="2021-12-28T18:15:26 IST" name="tearDown" finished-at="2021-12-28T18:15:27 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- baseClass.BaseUI -->
+      <class name="testSuite.RegressionTest">
+        <test-method signature="regressionTesting()[pri:0, instance:testSuite.RegressionTest@7bd4937b]" started-at="2021-12-28T18:13:21 IST" name="regressionTesting" finished-at="2021-12-28T18:15:25 IST" duration-ms="124511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regressionTesting -->
+      </class> <!-- testSuite.RegressionTest -->
+      <class name="testSuite.SmokeTest">
+        <test-method signature="smokeTesting()[pri:0, instance:testSuite.SmokeTest@2c35e847]" started-at="2021-12-28T18:12:23 IST" name="smokeTesting" finished-at="2021-12-28T18:13:21 IST" duration-ms="57930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTesting -->
+      </class> <!-- testSuite.SmokeTest -->
+    </test> <!-- Defect_Module -->
+  </suite> <!-- Mainspring -->
+</testng-results>
